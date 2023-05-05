@@ -1,0 +1,14 @@
+INTRODUCCION A JQUERY
+
+1.- Instalar Extensiones 
+    .- HTML Class Suggestions
+    .- HTML CSS Support
+    .- jQuery Code Snippets
+
+2.- Configurar CDN [ Bosstrap, jquery]
+3.- Crear y vincular archivo app.js
+4.- Ejemplificar console.log("Estamos conectados con libreria jquery)
+5.- Aplicar estilos de boostrap a documento
+6.- Ejemplificar Acceso al DOM [ h1 ] jq.html
+7.- Ejemplificar Modificar DOM [ h2 ] jq.class
+8.- Ejemplificar Agregar y quitar elementos del DOM [ jq.Append, Prepend ]
