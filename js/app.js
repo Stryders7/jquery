@@ -24,8 +24,31 @@ $('#parr1').css('color', 'Blue');
 $('#parr2').css({color: '#fff', background: 'grey'});
 
 // Eventos [ CLICK ]
-$('.btn-success').click(function (e) { 
-    vparrafo = document.getElementById('resultado')
-    vparrafo.addClass('display-6')
+var vparrafo = $('#resultado p');
+$('.btn-success').click(function () { 
+    vparrafo.addClass('display-4');
+});
+$('.btn-danger').click(function () { 
+    vparrafo.removeClass('display-4')
     
+});
+
+$('.btn-warning').click(function (e) { 
+    vparrafo.toggleClass('display-4');
+    
+});
+
+$('#formulario').submit(function (e) { 
+    e.preventDefault();
+    console.log("Validando")
+    
+});
+
+$('#userName').blur(function () { 
+    var UserName = $('#userName').val();
+    if(UserName =="" || UserName == null){
+        $('#userName').addClass('border-danger');
+    }else{
+        $('#userName').removeClass('border-danger');
+    }
 });
